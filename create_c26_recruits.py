@@ -36,6 +36,7 @@ class Recruit(db.Model):
     surname = db.Column(db.String(20))
     chat_name = db.Column(db.VARCHAR(50))
     github_name = db.Column(db.VARCHAR(50))
+    id_number = db.Column(db.VARCHAR(10))
     personal_email_address = db.Column(db.VARCHAR(100))
     chort = db.Column(db.VARCHAR)
 
